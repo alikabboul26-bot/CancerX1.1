@@ -1,0 +1,162 @@
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eaf2fa; /* light blue */
+  color: #1b1b2f; /* dark blue text */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #c0392b; /* red for emphasis */
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1::before {
+  content: "🩸"; /* blood drop symbol */
+  margin-right: 10px;
+}
+
+header .intro {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Info section */
+.info {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 50px;
+}
+
+.info h2 {
+  color: #2980b9; /* blue headings */
+  margin-bottom: 15px;
+}
+
+.info p {
+  line-height: 1.6;
+}
+
+/* Buttons */
+button {
+  background-color: #2980b9; /* blue */
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #1b4f72; /* darker blue */
+}
+
+/* Form */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Result styling */
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  white-space: pre-line;
+}
+
+/* Risk colors */
+#result.low {
+  background-color: #d4efdf; /* light green */
+  color: #1b4f2c;
+  border: 2px solid #27ae60;
+}
+
+#result.medium {
+  background-color: #fcf3cf; /* yellow/orange */
+  color: #7f6000;
+  border: 2px solid #f39c12;
+}
+
+#result.high {
+  background-color: #f8d7da; /* red */
+  color: #7a1f24;
+  border: 2px solid #c0392b;
+}
+
+/* Disclaimer */
+.disclaimer {
+  font-size: 0.9rem;
+  color: #c0392b;
+  margin-top: 15px;
+}
+/* AI Info Section */
+.ai-info {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 50px;
+}
+
+.ai-info h2 {
+  color: #2980b9; /* blue heading */
+  margin-bottom: 15px;
+}
+
+.ai-info p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.ai-info ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.ai-info ul li {
+  margin-bottom: 10px;
+}
